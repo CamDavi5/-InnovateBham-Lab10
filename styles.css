@@ -1,0 +1,31 @@
+.diceDiv {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dice {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonHolder {
+    display: flex;
+    justify-content: center;
+}
+
+#genButton {
+    margin: 0px 8px;
+}
+
+#rollButton {
+    margin: 0px 8px;
+}
+
+#sumButton {
+    margin: 0px 8px;
+}
