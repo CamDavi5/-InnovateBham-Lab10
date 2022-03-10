@@ -1,31 +1,32 @@
-.diceDiv {
+.diceContainer {
     display: flex;
     flex-wrap: wrap;
 }
 
 .dice {
     border: 1px solid black;
-    height: 50px;
-    width: 50px;
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
     margin: 7px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.buttonHolder {
+.buttonContainer {
     display: flex;
     justify-content: center;
 }
 
 #genButton {
-    margin: 0px 8px;
+    margin: 0px 15px;
 }
 
 #rollButton {
-    margin: 0px 8px;
+    margin: 0px 15px;
 }
 
 #sumButton {
-    margin: 0px 8px;
+    margin: 0px 15px;
 }
